@@ -10,27 +10,9 @@ nav {
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	width: 25%;
 	height: 100vh;
-	font-size: 1.2em;
+	font-size: 2.2em;
 	padding-bottom: 3px;
-	line-height: 1em;	
-}
-
-
-main {
-	text-align: left;
-	margin-top: 200px;
-	background-color: white;
-	float: left;
-	width: 75%;
-	height: 100vh;
-}
-
-div {
-	margin-left: 20px;
-	}
-
-#about-me {
-	margin-left: 5px;
+	line-height: 1.4em;	
 }
 
 #photo {
@@ -39,4 +21,36 @@ div {
 	border-radius: 150%;
 	margin-top: 200px;
 	}
+
+p {
+	color: beige;
+}
+
+main {
+	text-align: left;
+	padding-top: 300px;
+	background-color: white;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	float: left;
+	width: 75%;
+	height: 100vh;
+	vertical-align: middle;
+}
+
+div {
+	margin-left: 50px;
+	}
+
+#about-me {
+	margin-left: 50px;
+	color: rgb(80, 77, 77);
+	padding-top: 50px;
+}
+
+#icons {
+	padding-top: 30px;
+	float: left;
+	width: 10px;
+	height: 10px;
+}
 
