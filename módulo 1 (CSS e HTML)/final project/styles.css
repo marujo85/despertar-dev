@@ -1,9 +1,12 @@
 
+* {
+	margin: ;
+}
 main {
 	text-align: left;
 	margin-top: 200px;
 	background-color: white;
-	float: right;
+	float: left;
 	width: 75%;
 	height: 100vh;
 	/*margin-left: 10px;*/
@@ -17,11 +20,16 @@ h4 {
 
 nav {
 	text-align: center;
+	float: left;
 	background-color: rgba(223, 41, 9, 0.705);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	
 	width: 25%;
 	height: 100vh;
-	float: left;
-    font-size: 1.1em;	
+	font-size: 3.2em;
+	padding-bottom: 3px;
+	line-height: 1em;
+	
 }
 
 #photo {
@@ -33,7 +41,7 @@ nav {
 	
 }
 
-#lista-nav {
+#lista-topics {
 	margin-top: 50px;
 	list-style: none;
 	font-size: large ;
