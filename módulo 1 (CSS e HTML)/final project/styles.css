@@ -1,7 +1,22 @@
 
 * {
-	margin: ;
+	margin: 0px ;
 }
+ 
+nav {
+	text-align: center;
+	float: left;
+	background-color: rgba(223, 41, 9, 0.705);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	width: 25%;
+	height: 100vh;
+	font-size: 1.2em;
+	padding-bottom: 3px;
+	line-height: 1em;
+	
+}
+
+
 main {
 	text-align: left;
 	margin-top: 200px;
@@ -9,40 +24,20 @@ main {
 	float: left;
 	width: 75%;
 	height: 100vh;
-	/*margin-left: 10px;*/
 }
 
-h4 {
-	text-align: left;
-	margin-left: 10px;
-}
+div {
+	margin-left: 20px;
+	}
 
-
-nav {
-	text-align: center;
-	float: left;
-	background-color: rgba(223, 41, 9, 0.705);
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-	
-	width: 25%;
-	height: 100vh;
-	font-size: 3.2em;
-	padding-bottom: 3px;
-	line-height: 1em;
-	
+#about-me {
+	margin-left: 5px;
 }
 
 #photo {
 	height: 300px;
 	height: 300px;
-	border-radius: 50%;
+	border-radius: 150%;
 	margin-top: 200px;
-	
-	
-}
+	}
 
-#lista-topics {
-	margin-top: 50px;
-	list-style: none;
-	font-size: large ;
-}
