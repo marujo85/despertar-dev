@@ -32,7 +32,7 @@ p {
 
 main {
 	text-align: left;
-	padding-top: 300px;
+	padding-top: 200px;
 	background-image: url(./backgroundcode.jpeg);
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	float: left;
@@ -67,12 +67,13 @@ main {
 
 }
 
-#KnowledgmentsList {
-	font-size: 3rem;
-	margin-left: 50px;
+.KnowledgmentsList {
+	font-size: 2rem;
+	margin-left: 60px;
 	list-style-type: upper-roman;
+	margin-top: 20px;
 	li {
-		line-height: 1.5em;	
+		line-height: 1.1em;	
 	}
 }
 
@@ -99,5 +100,5 @@ a {
 }
 
 a:hover {
-	color: white;
+	color: rgb(180, 21, 21);
 }
